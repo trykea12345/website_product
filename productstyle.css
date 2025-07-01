@@ -1,0 +1,992 @@
+/* ======= Colors and Fonts ======= */
+:root {
+  --pink-primary: #d63384;
+  --pink-hover: #b32e73;
+  --pink-light-bg: #ffe4ec;
+  --gray-muted: #888;
+  --gray-light: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--pink-light-bg);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= All Products Section ======= */
+/* General Section */
+#all {
+  background-color: #fff0f5; /* Light pink */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+}
+
+/* Section Title */
+#all h2.text-pink {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #e91e63; /* Strong pink */
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.15);
+}
+
+ .card-img-top {
+  border-radius: 1.25rem 1.25rem 0 0;
+  object-fit: cover;
+  height: 320px;
+}
+
+/* Wishlist Icon */
+.wishlist-icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: #fff;
+  padding: 0.4rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #e91e63;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.wishlist-icon:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+/* Prices */
+.card-price {
+  font-size: 1rem;
+}
+
+.current-price {
+  color: #e91e63;
+  font-weight: 600;
+}
+
+.original-price {
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn-pink {
+  background-color: #e91e63;
+  color: #fff;
+  border-radius: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #d81b60;
+}
+
+.btn-outline-pink {
+  border: 2px solid #e91e63;
+  color: #e91e63;
+  border-radius: 1.5rem;
+}
+
+.btn-outline-pink:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+}
+
+.carousel-inner img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.price-wrapper .current-price {
+  color: #e91e63;
+}
+
+.price-wrapper .original-price {
+  font-size: 1rem;
+}
+
+
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #444;
+}
+
+.text-pink {
+  color: #d63384;
+}
+
+.bg-pink-light {
+  background-color: #ffe4ec;
+}
+
+/* Product Cards */
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.2);
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+/* Card Title & Subtitle */
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333;
+}
+.price-wrapper {
+  display: flex;
+  justify-content: center;      /* Center the price group horizontally */
+  align-items: baseline;        /* Align prices by their text baseline */
+  gap: 0.75rem;                 /* Space between current and original price */
+  margin-bottom: 1rem;          /* Space below the price */
+  text-align: center;           /* Center text for smaller screens */
+  flex-wrap: wrap;              /* Wrap prices if container is too narrow */
+}
+
+.current-price {
+  color: #e91e63;               /* Pink color (same as text-pink) */
+  font-weight: 700;             /* Bold */
+  font-size: 1.25rem;           /* Bigger font size */
+}
+
+.original-price {
+  color: #6c757d;               /* Muted gray */
+  text-decoration: line-through;
+  font-size: 1rem;              /* Slightly smaller font size */
+}
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body .btn {
+  margin-top: auto;
+}
+
+
+.card-subtitle {
+  font-size: 0.85rem;
+}
+
+/* Price Styling */
+.current-price {
+  color: #d63384;
+  font-weight: 600;
+}
+
+.original-price {
+  font-size: 0.85rem;
+}
+
+/* Buttons */
+.btn-pink {
+  background-color: #d63384;
+  color: #fff;
+  border-radius: 2rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #c02670;
+  color: #fff;
+}
+
+.btn-outline-pink {
+  border: 2px solid #d63384;
+  color: #d63384;
+  border-radius: 2rem;
+  background-color: transparent;
+}
+
+.btn-outline-pink:hover {
+  background-color: #d63384;
+  color: #fff;
+}
+
+/* Wishlist Icon */
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.3rem;
+  color: #d63384;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  z-index: 2;
+}
+
+.wishlist-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 1.5rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+  }
+
+  .modal-body {
+    flex-direction: column !important;
+  }
+
+  .carousel-inner img {
+    max-height: 300px;
+  }
+}
+
+
+
+
+/* Utility */
+.mt-auto {
+  margin-top: auto !important;
+}
+
+
+
+
+* --- Section Background --- */
+#lip {
+  background-color: #ffe4ec;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* --- Section Title --- */
+#lip h2.text-pink {
+  color: #d63384;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
+
+/* --- Product Card --- */
+#lip .card {
+  border-radius: 12px;
+  border: none;
+  background: #fff0f5;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#lip .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.3);
+}
+
+/* Card image */
+#lip .card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Wishlist icon */
+#lip .wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(255, 228, 236, 0.85);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.25);
+  user-select: none;
+}
+
+#lip .wishlist-icon i {
+  color: #d63384;
+  font-size: 1.4rem;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+#lip .wishlist-icon:hover {
+  transform: scale(1.2);
+  background-color: #d63384;
+  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.5);
+}
+
+#lip .wishlist-icon:hover i {
+  color: #fff;
+}
+
+#lip .wishlist-icon.active i {
+  color: #a42a6a;
+  text-shadow: 0 0 5px #d63384;
+}
+
+/* Card body */
+#lip .card-body {
+  padding: 1rem 1rem 1.5rem;
+  text-align: center;
+}
+
+/* Product title */
+#lip .card-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: #d63384;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Product price */
+/* ===== Eye Section Card Styling ===== */
+#lip .card {
+  border-radius: 12px;
+  background-color: #fff0f5;
+  border: none;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+#lip .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.25);
+}
+
+/* Product Image */
+#lip .card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Card Body */
+#lip .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+}
+
+
+/* Title */
+#lip .card-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: #d63384;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lip .card-price {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #a42a6a;
+  margin-bottom: 1rem;
+  background-color: #fce6ef;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.1);
+
+
+}
+#lip .card-price .original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+  text-align: center;
+}
+
+
+/* Button */
+#lip .btn-pink {
+  background-color: #d63384;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 4px 10px rgba(214, 51, 132, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 1rem;
+}
+
+
+#lip .btn-pink:hover {
+  background-color: #a42a6a;
+  box-shadow: 0 6px 18px rgba(164, 42, 106, 0.5);
+}
+
+/* Wishlist Icon */
+#lip .wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(255, 228, 236, 0.85);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.25);
+  z-index: 10;
+}
+
+#lip .wishlist-icon i {
+  color: #d63384;
+  font-size: 1.3rem;
+  pointer-events: none;
+}
+
+#lip .wishlist-icon:hover {
+  transform: scale(1.2);
+  background-color: #d63384;
+}
+
+#lip .wishlist-icon:hover i {
+  color: #fff;
+}
+
+/* Responsive Fix for Small Devices */
+@media (max-width: 767px) {
+  #eye .card-img-top {
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* --- Section Background --- */
+#eye {
+  background-color: #ffe4ec;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* --- Section Title --- */
+#eye h2.text-pink {
+  color: #d63384;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
+
+/* --- Product Card --- */
+#eye .card {
+  border-radius: 12px;
+  border: none;
+  background: #fff0f5;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#eye .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.3);
+}
+
+/* Card image */
+#eye .card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Wishlist icon */
+#eye .wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(255, 228, 236, 0.85);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.25);
+  user-select: none;
+}
+
+#eye .wishlist-icon i {
+  color: #d63384;
+  font-size: 1.4rem;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+#eye .wishlist-icon:hover {
+  transform: scale(1.2);
+  background-color: #d63384;
+  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.5);
+}
+
+#eye .wishlist-icon:hover i {
+  color: #fff;
+}
+
+#eye .wishlist-icon.active i {
+  color: #a42a6a;
+  text-shadow: 0 0 5px #d63384;
+}
+
+/* Card body */
+#eye .card-body {
+  padding: 1rem 1rem 1.5rem;
+  text-align: center;
+}
+
+/* Product title */
+#eye .card-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: #d63384;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Product price */
+/* ===== Eye Section Card Styling ===== */
+#eye .card {
+  border-radius: 12px;
+  background-color: #fff0f5;
+  border: none;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+#eye .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.25);
+}
+
+/* Product Image */
+#eye .card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Card Body */
+#eye .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+}
+
+
+/* Title */
+#eye .card-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: #d63384;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#eye .card-price {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #a42a6a;
+  margin-bottom: 1rem;
+  background-color: #fce6ef;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.1);
+
+
+}
+#eye .card-price .original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+/* Button */
+#eye .btn-pink {
+  background-color: #d63384;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 4px 10px rgba(214, 51, 132, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 1rem;
+}
+
+
+#eye .btn-pink:hover {
+  background-color: #a42a6a;
+  box-shadow: 0 6px 18px rgba(164, 42, 106, 0.5);
+}
+
+/* Wishlist Icon */
+#eye .wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(255, 228, 236, 0.85);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.25);
+  z-index: 10;
+}
+
+#eye .wishlist-icon i {
+  color: #d63384;
+  font-size: 1.3rem;
+  pointer-events: none;
+}
+
+#eye .wishlist-icon:hover {
+  transform: scale(1.2);
+  background-color: #d63384;
+}
+
+#eye .wishlist-icon:hover i {
+  color: #fff;
+}
+
+/* Responsive Fix for Small Devices */
+@media (max-width: 767px) {
+  #eye .card-img-top {
+    height: 200px;
+  }
+}
+
+
+
+/* --- Skincare Section Styling --- */
+#skincare {
+  background-color: #ffe4ec;
+  padding: 3rem 0;
+}
+
+#skincare h2.text-pink {
+  color: #d63384;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
+
+/* --- Product Card --- */
+#skincare .card {
+  border-radius: 12px;
+  border: none;
+  background: #fff0f5;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#skincare .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.3);
+}
+
+#skincare .card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* --- Wishlist Icon --- */
+#skincare .wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(255, 228, 236, 0.85);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.25);
+  user-select: none;
+}
+
+#skincare .wishlist-icon i {
+  color: #d63384;
+  font-size: 1.4rem;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+#skincare .wishlist-icon:hover {
+  transform: scale(1.2);
+  background-color: #d63384;
+  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.5);
+}
+
+#skincare .wishlist-icon:hover i {
+  color: #fff;
+}
+
+#skincare .wishlist-icon.active i {
+  color: #a42a6a;
+  text-shadow: 0 0 5px #d63384;
+}
+
+/* --- Card Content --- */
+#skincare .card-body {
+  padding: 1rem 1rem 1.5rem;
+  text-align: center;
+}
+
+#skincare .card-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: #d63384;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#skincare .card-price {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #a42a6a;
+  margin-bottom: 1rem;
+}
+
+/* --- Pink Button --- */
+#skincare .btn-pink {
+  background-color: #d63384;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+  box-shadow: 0 3px 8px rgba(214, 51, 132, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skincare .btn-pink:hover {
+  background-color: #a42a6a;
+  box-shadow: 0 6px 15px rgba(164, 42, 106, 0.7);
+}
+
+/* --- Modal Styling --- */
+.modal-content {
+  border-radius: 20px;
+  background: #fff0f5;
+  box-shadow: 0 12px 30px rgba(214, 51, 132, 0.3);
+}
+
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0.5rem;
+}
+
+.modal-title {
+  color: #d63384;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn-close {
+  filter: invert(35%) sepia(79%) saturate(4491%) hue-rotate(325deg) brightness(97%) contrast(104%);
+}
+
+.modal-body {
+  color: #5a2747;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.modal-body img {
+  border-radius: 12px;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.modal-body p.fw-bold {
+  color: #a42a6a;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* --- Responsive Fix --- */
+@media (max-width: 767px) {
+  #lip .card-img-top {
+    height: 200px;
+  }
+}
+
+/* ====== Footer Styling ====== */
+
+/* ====== Dark Mode Footer ====== */
+body.dark-mode footer {
+  background-color: #1f1f1f;
+  color: #f8f9fa;
+}
+
+body.dark-mode footer h5,
+body.dark-mode footer h6,
+body.dark-mode footer a {
+  color: #ffc0cb;
+}
+
+body.dark-mode footer a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
+
+body.dark-mode footer .text-muted {
+  color: #bdbdbd !important;
+}
+
+body.dark-mode footer hr {
+  border-top: 1px solid #555;
+}
+
+footer {
+  background-color: #ffe4ec; /* light pink */
+  color: #333;
+  font-size: 0.95rem;
+  border-top: 2px solid #f8c3d9;
+}
+
+footer h5,
+footer h6 {
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #d63384;
+  text-decoration: underline;
+}
+
+footer i {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: #a61c65;
+}
+
+footer .text-muted {
+  color: #6c757d !important;
+}
+
+footer hr {
+  border-top: 1px solid #f3b8cc;
+  margin: 1.5rem 0;
+}
+
+
